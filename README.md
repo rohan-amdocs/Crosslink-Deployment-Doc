@@ -14,7 +14,7 @@ This document covers the deployment procedure for Crosslink Sub-Modules.
 - Create a Fork and make sure all branches are forked, for example https://github.com/rohan-amdocs/crosslink-oss-controller
 - Clone this Fork locally, i.e., wherever you will be working.
 - To set upstream run -> `git remote add upstream <sub-module url>` 
-- Go to your Local Clone of Sub-Module Fork, then checkout dev and run -> `git fetch upstream/dev` -> `git merge upstream/dev`
+- Go to your Local Clone of Sub-Module Fork, then checkout dev and run -> `git fetch upstream` -> `git merge upstream/dev`
 - Now that your Local Clone dev has latest changes, create a New Branch from dev. 
 - Make your changes to this New Branch, once done, push to Origin HEAD and publish this New Branch.
 - So now Sub-Module Fork New Branch has your changes.
