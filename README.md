@@ -21,7 +21,7 @@ This document covers the deployment procedure for Crosslink Sub-Modules.
 - Create a PR from Sub-Module Fork New Branch to Sub Module dev, so your changes will come to Sub Module dev.
 - Create a PR from Sub-Module dev to Sub-Module main, so your changes will come to Sub Module main.
 - Create a Release based on the work done in the PR, using git convention.
-- Go to your Local Clone of OSS-Check-Fork, then checkout dev and run -> `git fetch upstream/dev` -> `git merge upstream/dev`
+- Go to your Local Clone of OSS-Check-Fork, then checkout dev and run -> `git fetch upstream` -> `git merge upstream/dev`
 - Now that your Local Clone dev has latest changes, create a New Branch from dev.
 - Follow this naming convention: *Bump-ms-oss-controller-to-v1.25.0*
 - To ensure that the changes in Sub-Module reflect in this Bump Branch run -> `git submodule update --init <sub-module name>` ( If sub module is not initialized ) -> `git submodule update --remote <sub-module name>`
